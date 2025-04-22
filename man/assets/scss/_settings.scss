@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Polonium Bold";
+    src: url('../fonts/Polonium-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Nokia Kokia RU SB YL YA JK A";
+    font-weight: 500;
+    src: url(../fonts/nokia.ttf) format('truetype');
+    font-style: normal;
+}
+@font-face{
+    font-family: "Unbounded";
+    font-weight: 500;
+    src: url(../fonts/Unbounded-SemiBold.ttf) format('truetype');
+    font-style: normal;
+}
+@font-face{
+    font-family: "Unbounded";
+    font-weight: bold;
+    src: url(../fonts/Unbounded-VariableFont_wght.ttf) format('truetype');
+    font-style: normal;
+}
+
+*,a,ul,ol{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Polonium Bold";
+    font-weight: bold;
+    background-image: linear-gradient(88deg, #1e1e1e 0%, #000000 100%);
+    letter-spacing: 2px;
+}
+button{
+    cursor: pointer;
+}
+.wrapper{
+    overflow: hidden;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    @media (max-width: 1599px) {
+        padding: 0 20px;
+    }
+}
+.section_title{
+    font-size: 114px;
+    color: #fc3950;
+    font-weight: bold;
+}
+.row{
+    display: flex;
+}

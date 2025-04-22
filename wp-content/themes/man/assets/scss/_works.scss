@@ -1,0 +1,90 @@
+.works{
+    margin-bottom: 50px;
+    .section_title{
+        margin-bottom: 50px;
+        color: #fc3950;
+        font-weight: bold;
+        font-family: "Polonium Bold";
+        font-size: 32px;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    .works_swiper{
+        overflow: visible;
+        .swiper-wrapper{
+            // align-items: stretch;
+            .swiper-slide{
+                transform: skew(-10deg); 
+                height: auto;
+                .works_item{
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    height: 100%;
+                    .item_number{
+                        position: absolute;
+                        left: -110px;
+                        top: 0;
+                        bottom: 0;
+                        margin: auto;
+                        width: 120px;
+                        height: 220px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .item_title{
+                        font-size: 25px;
+                        color: #ffffff;
+                        font-weight: bold;
+                        font-family: "Polonium Bold";
+                        position: relative;
+                        z-index: 10;
+                        letter-spacing: 2px;
+                        @media (max-width: 1199px) {
+                            font-size: 16px;
+                        }
+                    }
+                    .item_desc{
+                        background-color: #fff;
+                        position: relative;
+                        z-index: 10;
+                        padding: 15px;
+                        max-width: 400px;
+                        font-size: 18px;
+                        font-weight: 500;
+                        font-family: "Unbounded";
+                        @media (max-width: 1199px) {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .adv_title{
+        padding: 20px 0;
+        background-color: #fff;
+        margin-top: 30px;
+        width: 100%;
+        .title{
+            text-align: center;
+            font-size: 30px;
+            // text-transform: uppercase;
+            // letter-spacing: 5px;
+            color: #171717;
+            font-weight: 500;
+            font-family: "Unbounded";
+            display: block;
+            // word-spacing: normal;
+            // @media (max-width: 1599px) {
+            //     font-size: 16px;
+            // }
+            @media (max-width: 1199px) {
+                font-size: 5px;
+            }
+        }
+    }
+}

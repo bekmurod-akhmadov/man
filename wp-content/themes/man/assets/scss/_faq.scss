@@ -1,0 +1,108 @@
+.faq{
+    background-image: linear-gradient(117deg, #000000 0%, #1e1e1e 100%);
+    padding: 80px 0;
+    .section_title{
+        color: #ffffff;
+        font-weight: bold;
+        font-family: "Polonium Bold";
+        font-size: 72px;
+        text-align: center;
+        @media (max-width: 1599px) {
+            font-size: 50px;
+        }
+    }
+    .faq_row{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        .faq_item{
+            background-image: linear-gradient(88deg, #121212 0%, #fd3950 100%);
+            padding: 20px 40px;
+            display: flex;
+            flex-direction: column;
+            transition: .3s all ease;
+            border: 4px solid #000000;
+            &.active{
+                .bot_side {
+                    max-height: 1000px; // keraklicha katta bo‘lishi mumkin
+                    opacity: 1;
+                    pointer-events: auto;
+                    margin-top: 30px;
+                }
+                .array{
+                    transform: rotate(90deg);
+                }
+            }
+            span{
+                max-width: max-content;
+                width: max-content;
+            }
+            .top_side{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                cursor: pointer;
+                width: 100%;
+                gap: 0 30px;
+                flex: 0 0 auto;
+                .number{
+                    color: #ffffff;
+                    font-weight: 500;
+                    font-family: "Polonium Bold";
+                    font-size: 40px;
+                    @media (max-width: 1599px) {
+                        font-size: 30px;
+                    }
+                    @media (max-width: 1199px) {
+                        font-size: 24px;
+                    }
+                }
+                .text{
+                    color: #ffffff;
+                    font-weight: 500;
+                    font-family: "Unbounded";
+                    font-size: 40px;
+                    overflow-wrap: break-word;
+                    @media (max-width: 1599px) {
+                        font-size: 30px;
+                    }
+                    @media (max-width: 1199px) {
+                        font-size: 24px;
+                        text-align: center;
+                    }
+                }
+                .array{
+                    width: 80px;
+                    height: 60px;
+                    transition: .3s all ease;
+                    flex: 0 0 auto;
+                    display: block;
+                    @media (max-width: 1199px) {
+                        width: 60px;
+                        height: 30px;
+                    }
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
+            }
+            .bot_side {
+                overflow: hidden;
+                max-height: 0;
+                opacity: 0;
+                pointer-events: none;
+                transition: max-height 0.5s ease, opacity 0.3s ease;
+                color: #ffffff;
+                font-weight: 500;
+                font-family: "Unbounded";
+                font-size: 20px;
+                @media (max-width: 1199px) {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

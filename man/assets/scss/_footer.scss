@@ -1,0 +1,32 @@
+footer{
+    background-color: #fff;
+    padding: 50px 0;
+    .phone_number{
+        color: #000000;
+        font-family: "Nokia Kokia RU SB YL YA JK A";
+        letter-spacing: 3px;
+        display: block;
+        font-size: 20px;
+        flex: 0 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    .networks{
+        display: flex;
+        align-items: center;
+        gap: 0 20px;
+        width: max-content;
+        margin: 40px auto 0 auto;
+        li{
+            a{
+                width: 70px;
+                display: block;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                }
+            }
+        }
+    }
+}
