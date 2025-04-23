@@ -10,37 +10,37 @@
             <!-- Network -->
             <li>
                 <a href="#">
-                    <img src="<?=get_template_directory_uri()?>/<?=get_template_directory_uri()?>/assets/img/social1.png" alt="">
+                    <img src="<?=get_template_directory_uri()?>/assets/img/social1.png" alt="">
                 </a>
             </li>
             <!-- Network -->
             <li>
                 <a href="#">
-                    <img src="<?=get_template_directory_uri()?>/<?=get_template_directory_uri()?>/assets/img/social2.png" alt="">
+                    <img src="<?=get_template_directory_uri()?>/assets/img/social2.png" alt="">
                 </a>
             </li>
             <!-- Network -->
             <li>
                 <a href="#">
-                    <img src="<?=get_template_directory_uri()?>/<?=get_template_directory_uri()?>/assets/img/social3.png" alt="">
+                    <img src="<?=get_template_directory_uri()?>/assets/img/social3.png" alt="">
                 </a>
             </li>
             <!-- Network -->
             <li>
                 <a href="#">
-                    <img src="<?=get_template_directory_uri()?>/<?=get_template_directory_uri()?>/assets/img/social4.png" alt="">
+                    <img src="<?=get_template_directory_uri()?>/assets/img/social4.png" alt="">
                 </a>
             </li>
             <!-- Network -->
             <li>
                 <a href="#">
-                    <img src="<?=get_template_directory_uri()?>/<?=get_template_directory_uri()?>/assets/img/social5.png" alt="">
+                    <img src="<?=get_template_directory_uri()?>/assets/img/social5.png" alt="">
                 </a>
             </li>
             <!-- Network -->
             <li>
                 <a href="#">
-                    <img src="<?=get_template_directory_uri()?>/<?=get_template_directory_uri()?>/assets/img/social6.png" alt="">
+                    <img src="<?=get_template_directory_uri()?>/assets/img/social6.png" alt="">
                 </a>
             </li>
         </ul>
@@ -57,5 +57,7 @@
 
 <!-- Swiper -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<?php wp_footer(); ?>
 </body>
 </html>

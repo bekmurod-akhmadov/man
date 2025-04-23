@@ -27,6 +27,10 @@
 <body>
 <!-- Main -->
 <main class="wrapper">
+    <?php
+        $header_logo = get_field('header_logo');
+        $header_phone_number = get_field('header_phone_number');
+    ?>
     <!-- Hero -->
     <section class="hero">
 
@@ -38,7 +42,7 @@
                 <div class="row">
                     <!-- Header logo -->
                     <a href="index.html" class="header_logo">
-                        <img src="<?=get_template_directory_uri()?>/assets/img/header_logo.png" alt="">
+                        <img src="<?=$header_logo?>" alt="">
                     </a>
 
                     <!-- Links -->
@@ -58,7 +62,7 @@
                     </ul>
 
                     <!-- Phone number -->
-                    <a href="tel:+79969497217" class="phone_number">+7 (996) 949-72-12</a>
+                    <a href="tel:<?=$header_phone_number?>" class="phone_number"><?=$header_phone_number?></a>
                 </div>
             </div>
         </header>
